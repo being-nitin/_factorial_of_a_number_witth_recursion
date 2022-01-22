@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// factorial of a number:
-        System.out.println(fact(6));
+        int n =8;
+        System.out.println(fact(n));
     }
     public static int fact(int n){
         if(n==1) {
@@ -15,3 +16,4 @@ public class Main {
         }
     }
 }
+//
